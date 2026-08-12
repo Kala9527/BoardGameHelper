@@ -1,6 +1,6 @@
 # Board Game Helper
 
-Board Game Helper 是一个桌游辅助工具原型，使用 Vue 3、Pinia、TypeScript 和 Vite 构建，同时提供 Capacitor Android 包装工程。它适合做桌游计分、回合记录、随机事件、游戏模板和移动端陪玩辅助。
+Board Game Helper 是一个桌游辅助工具原型，使用 Vue 3、Pinia、TypeScript 和 Vite 构建，同时提供 Capacitor Android 包装工程。它适合做桌游计分、回合记录、随机事件、游戏模板和移动端陪玩辅助,可以支持三国杀，鹅鸭杀，狼人杀等。
 
 ## 功能亮点
 
