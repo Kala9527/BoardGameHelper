@@ -1,0 +1,9 @@
+{
+	"appId": "com.boardgamehelper.app",
+	"appName": "桌游助手",
+	"webDir": "../dist",
+	"bundledWebRuntime": false,
+	"server": {
+		"androidScheme": "https"
+	}
+}

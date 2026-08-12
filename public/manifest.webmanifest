@@ -1,0 +1,12 @@
+{
+  "name": "桌游助手",
+  "short_name": "桌游助手",
+  "description": "线下卡牌桌游和聚会游戏的离线优先辅助工具。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f2efe3",
+  "theme_color": "#f7df1e",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "1024x1024", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

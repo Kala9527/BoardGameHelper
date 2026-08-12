@@ -1,0 +1,121 @@
+[
+  {
+    "id": "werewolf",
+    "name": "狼人杀",
+    "subtitle": "身份分配、夜晚流程、发言计时、放逐投票",
+    "icon": "moon",
+    "accent": "#6c5ce7",
+    "minPlayers": 6,
+    "maxPlayers": 12,
+    "defaultTimer": 90,
+    "tags": ["身份", "主持", "投票"],
+    "phases": ["入夜", "狼人行动", "预言家查验", "女巫行动", "天亮发言", "投票放逐", "结算"],
+    "statuses": ["存活", "出局", "警长", "禁言", "已投票"],
+    "rolePresets": [
+      { "players": 6, "roles": ["狼人", "狼人", "预言家", "女巫", "村民", "村民"] },
+      { "players": 8, "roles": ["狼人", "狼人", "狼人", "预言家", "女巫", "猎人", "村民", "村民"] },
+      { "players": 10, "roles": ["狼人", "狼人", "狼人", "预言家", "女巫", "猎人", "守卫", "村民", "村民", "村民"] },
+      { "players": 12, "roles": ["狼人", "狼人", "狼人", "狼人", "预言家", "女巫", "猎人", "守卫", "白痴", "村民", "村民", "村民"] }
+    ]
+  },
+  {
+    "id": "sanguosha",
+    "name": "三国杀辅助",
+    "subtitle": "座位、身份、回合顺序、状态和分数记录",
+    "icon": "sword",
+    "accent": "#ff4d2e",
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "defaultTimer": 60,
+    "tags": ["身份", "回合", "状态"],
+    "phases": ["准备阶段", "判定阶段", "摸牌阶段", "出牌阶段", "弃牌阶段", "结束阶段"],
+    "statuses": ["存活", "濒死", "阵亡", "翻面", "横置", "已用技能"],
+    "rolePresets": [
+      { "players": 4, "roles": ["主公", "忠臣", "反贼", "内奸"] },
+      { "players": 5, "roles": ["主公", "忠臣", "反贼", "反贼", "内奸"] },
+      { "players": 8, "roles": ["主公", "忠臣", "忠臣", "反贼", "反贼", "反贼", "反贼", "内奸"] },
+      { "players": 10, "roles": ["主公", "忠臣", "忠臣", "忠臣", "反贼", "反贼", "反贼", "反贼", "内奸", "内奸"] }
+    ]
+  },
+  {
+    "id": "goose-duck-local",
+    "name": "鹅鸭杀线下",
+    "subtitle": "阵营抽取、发言计时、投票与淘汰状态",
+    "icon": "mask",
+    "accent": "#00c2a8",
+    "minPlayers": 6,
+    "maxPlayers": 14,
+    "defaultTimer": 75,
+    "tags": ["阵营", "发言", "投票"],
+    "phases": ["任务阶段", "紧急会议", "顺序发言", "自由讨论", "投票", "结果"],
+    "statuses": ["存活", "淘汰", "跳过", "被怀疑", "已发言"],
+    "rolePresets": [
+      { "players": 6, "roles": ["鸭子", "鸭子", "鹅", "鹅", "鹅", "中立"] },
+      { "players": 8, "roles": ["鸭子", "鸭子", "鹅", "鹅", "鹅", "鹅", "侦探", "中立"] },
+      { "players": 10, "roles": ["鸭子", "鸭子", "鸭子", "鹅", "鹅", "鹅", "鹅", "侦探", "工程师", "中立"] }
+    ]
+  },
+  {
+    "id": "avalon",
+    "name": "阿瓦隆",
+    "subtitle": "身份暗分配、队伍表决、任务成败记录",
+    "icon": "shield",
+    "accent": "#2d9cdb",
+    "minPlayers": 5,
+    "maxPlayers": 10,
+    "defaultTimer": 90,
+    "tags": ["身份", "队伍", "任务"],
+    "phases": ["派西维尔确认", "坏人互认", "组队", "队伍投票", "任务执行", "刺杀", "结算"],
+    "statuses": ["存活", "队长", "上车", "赞成", "反对", "已执行"],
+    "rolePresets": [
+      { "players": 5, "roles": ["梅林", "派西维尔", "忠臣", "莫甘娜", "刺客"] },
+      { "players": 7, "roles": ["梅林", "派西维尔", "忠臣", "忠臣", "莫甘娜", "刺客", "奥伯伦"] },
+      { "players": 10, "roles": ["梅林", "派西维尔", "忠臣", "忠臣", "忠臣", "忠臣", "莫甘娜", "刺客", "奥伯伦", "莫德雷德"] }
+    ]
+  },
+  {
+    "id": "random-group",
+    "name": "随机分组",
+    "subtitle": "透明随机排序、座位、队伍与抽签",
+    "icon": "users",
+    "accent": "#f7df1e",
+    "minPlayers": 2,
+    "maxPlayers": 30,
+    "defaultTimer": 60,
+    "tags": ["分组", "座位", "抽签"],
+    "phases": ["录入", "抽签", "分组", "公布", "复盘"],
+    "statuses": ["在场", "候补", "队长", "完成"],
+    "rolePresets": []
+  },
+  {
+    "id": "custom-identity",
+    "name": "自定义身份局",
+    "subtitle": "自定义身份池、单机秘密查看、流程计时",
+    "icon": "card",
+    "accent": "#ff7f11",
+    "minPlayers": 2,
+    "maxPlayers": 30,
+    "defaultTimer": 60,
+    "tags": ["自定义", "身份", "流程"],
+    "phases": ["准备", "身份确认", "行动", "讨论", "投票", "结算"],
+    "statuses": ["存活", "出局", "保护", "沉默", "完成行动"],
+    "rolePresets": [
+      { "players": 4, "roles": ["身份A", "身份B", "身份C", "身份D"] },
+      { "players": 6, "roles": ["身份A", "身份B", "身份C", "身份D", "身份E", "身份F"] }
+    ]
+  },
+  {
+    "id": "uno",
+    "name": "UNO辅助",
+    "subtitle": "顺逆时针、回合、罚分、胜负历史",
+    "icon": "coin",
+    "accent": "#e84393",
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "defaultTimer": 30,
+    "tags": ["回合", "计分", "家庭"],
+    "phases": ["开局", "摸牌", "出牌", "喊UNO", "结算"],
+    "statuses": ["在局", "跳过", "反转", "罚摸", "本局获胜"],
+    "rolePresets": []
+  }
+]

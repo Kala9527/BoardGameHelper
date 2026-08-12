@@ -1,0 +1,23 @@
+{
+  "name": "board-game-helper-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "build:web": "npm --prefix .. run build",
+    "sync:android": "npm run build:web && cap sync android",
+    "open:android": "cap open android",
+    "build:apk": "npm run sync:android && powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:ANDROID_HOME='D:\\Package_tools\\AndroidStudio\\SDK'; $env:ANDROID_SDK_ROOT=$env:ANDROID_HOME; $env:JAVA_HOME='D:\\Package_tools\\AndroidStudio\\IDE\\android-studio\\jbr'; $env:GRADLE_USER_HOME='D:\\Package_tools\\AndroidStudio\\Gradle'; $env:ANDROID_USER_HOME='D:\\Package_tools\\AndroidStudio\\Config\\AndroidUser'; $env:ANDROID_AVD_HOME='D:\\Package_tools\\AndroidStudio\\Config\\AVD'; $env:ANDROID_EMULATOR_HOME='D:\\Package_tools\\AndroidStudio\\Config\\Emulator'; $env:STUDIO_PROPERTIES='D:\\Package_tools\\AndroidStudio\\Config\\android-studio.properties'; $env:Path=\\\"$env:JAVA_HOME\\bin;$env:ANDROID_HOME\\platform-tools;$env:ANDROID_HOME\\cmdline-tools\\latest\\bin;$env:ANDROID_HOME\\emulator;$env:Path\\\"; Set-Location android; .\\gradlew.bat assembleDebug\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.2",
+    "@capacitor/cli": "^8.4.2",
+    "@capacitor/core": "^8.4.2"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.3"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Source: iconfont.cn collection 34250, icon 23318021 "Dice, Board Game"; locally composed. -->
+  <rect width="1024" height="1024" rx="128" fill="#f7df1e"/>
+  <path d="M138 356v390c0 43 35 78 78 78h592c43 0 78-35 78-78V356H138z" fill="#fff" stroke="#111" stroke-width="48"/>
+  <path d="M250 418h128v128H250zM448 418h128v128H448zM646 418h128v128H646zM250 616h128v128H250zM448 616h128v128H448zM646 616h128v128H646z" fill="#00c2a8" stroke="#111" stroke-width="28"/>
+  <path d="M292 190h200v200H292z" fill="#fff" stroke="#111" stroke-width="36"/>
+  <circle cx="340" cy="238" r="22" fill="#ff4d2e"/>
+  <circle cx="392" cy="290" r="22" fill="#ff4d2e"/>
+  <circle cx="444" cy="342" r="22" fill="#ff4d2e"/>
+  <path d="M124 92h776v96H124z" fill="#111"/>
+  <path d="M202 118h620" stroke="#f7df1e" stroke-width="24"/>
+</svg>

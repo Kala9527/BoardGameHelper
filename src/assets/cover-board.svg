@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420">
+  <!--
+    Main icon source: iconfont.cn public collection "卡通游戏像素图标" (id: 34250),
+    icon "Dice, Board Game" (id: 23318021). Re-composed locally for offline app cover.
+  -->
+  <rect width="720" height="420" fill="#f7df1e"/>
+  <path d="M0 0h720v58H0zM0 362h720v58H0z" fill="#111"/>
+  <path d="M28 86h190v256H28z" fill="#ff4d2e" stroke="#111" stroke-width="10"/>
+  <path d="M502 86h190v256H502z" fill="#00c2a8" stroke="#111" stroke-width="10"/>
+  <path d="M214 58h292v304H214z" fill="#fffdf4" stroke="#111" stroke-width="12"/>
+  <path d="M248 150v139c0 15.4 12.5 27.8 27.8 27.8h236.5c15.4 0 27.8-12.5 27.8-27.8V150H248z" fill="#fff"/>
+  <path d="M282.7 150v139c0 15.4 12.5 27.8 27.8 27.8h-34.7c-15.4 0-27.8-12.5-27.8-27.8V150h34.7zM505.3 150v139c0 15.4-12.5 27.8-27.8 27.8h34.8c15.4 0 27.8-12.5 27.8-27.8V150h-34.8z" fill="#e6e7e8"/>
+  <path d="M512.3 320.2H275.8c-17.2 0-31.3-14-31.3-31.3V150c0-1.9 1.6-3.5 3.5-3.5h292.1c1.9 0 3.5 1.6 3.5 3.5v139c0 17.2-14.1 31.2-31.3 31.2zM255 157v131.9c0 13.4 10.9 24.4 24.4 24.4h236.5c13.4 0 24.4-10.9 24.4-24.4V157H255z" fill="#402943"/>
+  <path d="M275.8 150c0-30.6 24.8-55.6 55.6-55.6h125.5c30.6 0 55.6 24.8 55.6 55.6H275.8z" fill="#fff"/>
+  <path d="M310.6 150c0-30.6 24.8-55.6 55.6-55.6h-34.8c-30.8 0-55.6 25-55.6 55.6h34.8z" fill="#e6e7e8"/>
+  <path d="M512.4 157H275.8c-3.9 0-7-3.1-7-7 0-34.6 28-62.6 62.6-62.6h125.5c34.5 0 62.6 28 62.6 62.6 0 3.9-3.2 7-7.1 7zM283.3 143h221.4c-3.5-23.5-23.6-41.7-47.8-41.7H331.4c-24.3 0-44.6 18.2-48.1 41.7z" fill="#402943"/>
+  <path d="M312 180h58v58h-58z" fill="#4ab5ac"/>
+  <path d="M370 180h58v58h-58z" fill="#e6e7e8"/>
+  <path d="M428 180h58v58h-58z" fill="#4ab5ac"/>
+  <path d="M312 238h58v58h-58z" fill="#e6e7e8"/>
+  <path d="M370 238h58v58h-58z" fill="#4ab5ac"/>
+  <path d="M428 238h58v58h-58z" fill="#e6e7e8"/>
+  <path d="M312 180h174v116H312z" fill="none" stroke="#402943" stroke-width="8"/>
+  <path d="M370 180v116M428 180v116M312 238h174" stroke="#402943" stroke-width="8"/>
+  <path d="M330 112h128v128H330z" fill="#fff" stroke="#402943" stroke-width="10"/>
+  <circle cx="360" cy="142" r="12" fill="#59c3f0" stroke="#402943" stroke-width="6"/>
+  <circle cx="394" cy="176" r="12" fill="#59c3f0" stroke="#402943" stroke-width="6"/>
+  <circle cx="428" cy="210" r="12" fill="#59c3f0" stroke="#402943" stroke-width="6"/>
+  <text x="40" y="43" fill="#f7df1e" font-family="Arial Black, sans-serif" font-size="30">ICONFONT DICE BOARD GAME</text>
+  <text x="40" y="398" fill="#f7df1e" font-family="Arial Black, sans-serif" font-size="34">桌游助手</text>
+</svg>

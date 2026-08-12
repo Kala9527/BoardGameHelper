@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+app/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+app/android/**/build/
+app/android/.gradle/
+app/android/app/release/
+*.apk
+*.aab
+
+# Local config
+.env
+.env.*
+!.env.example
+*.local
+vite-dev.log
+app/android/local.properties
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
