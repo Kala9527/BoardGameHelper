@@ -4,6 +4,7 @@ Board Game Helper 是一个桌游辅助工具原型，使用 Vue 3、Pinia、Typ
 
 ## 功能亮点
 
+- 所有电脑所有系统及安卓手机都可以使用。
 - 桌游模板与状态管理。
 - PWA 基础配置：manifest、service worker、应用图标。
 - Web 端快速运行与静态部署。
