@@ -4,6 +4,8 @@ Board Game Helper is a board game companion prototype built with Vue 3, Pinia, T
 
 ## Highlights
 
+
+- Compatible with all computers, operating systems, and Android phones.
 - Board game templates and state management.
 - PWA basics: manifest, service worker, and app icons.
 - Web development and static deployment.
