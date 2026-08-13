@@ -1,30 +1,32 @@
 # 桌游助手
 
-[English README](./README.en.md)
+[English](./README.en.md)
 
-> 面向桌游计分、回合、随机工具、模板和本地对局的 Web/PWA/Android 辅助工具。
+> 面向桌游计分、回合、随机工具、模板和本地对局记录的 Web/PWA/Android 辅助工具。
 
-![vue](https://img.shields.io/badge/vue-111827?style=flat-square) ![typescript](https://img.shields.io/badge/typescript-111827?style=flat-square) ![pwa](https://img.shields.io/badge/pwa-111827?style=flat-square) ![board-games](https://img.shields.io/badge/board-games-111827?style=flat-square) ![local-first](https://img.shields.io/badge/local-first-111827?style=flat-square)
+![vue](https://img.shields.io/badge/vue-111827?style=flat-square)
+![typescript](https://img.shields.io/badge/typescript-111827?style=flat-square)
+![pwa](https://img.shields.io/badge/pwa-111827?style=flat-square)
+![board-games](https://img.shields.io/badge/board-games-111827?style=flat-square)
+![local-first](https://img.shields.io/badge/local-first-111827?style=flat-square)
 
-## 项目展示
+## 项目预览
 
-![桌游助手 展示图](./docs/images/github-showcase.png)
+![桌游助手预览图](./docs/images/2.jpg)
 
 ## 为什么值得 Star / Fork
 
-- 项目目标清晰，不是空壳仓库。
-- README 首屏有真实截图或基于真实功能的产品展示图，访客能快速理解项目。
-- 代码规模适合学习、二次开发和快速改造。
-- 同时维护英文与中文说明，方便 GitHub 全球用户和中文开发者阅读。
+- 面向实际桌游场景，不是空洞的模板仓库。
+- 首屏直接展示真实界面，浏览者能很快理解用途。
+- 适合学习、改造和按自己的桌游习惯继续扩展。
+- 同时保留中文和英文说明，方便更多人使用。
 
 ## 功能亮点
 
-- vue
-- typescript
-- pwa
-- board games
-- local first
-- 保持本地优先：密钥、生成文件、构建产物和本机缓存不进入 Git。
+- 桌游计分与回合管理。
+- 随机工具、模板和本地对局记录。
+- 本地优先的使用方式，便于保存和管理数据。
+- 适合做成桌游聚会时的常驻辅助工具。
 
 ## 快速开始
 
@@ -37,19 +39,17 @@ npm run dev
 
 ```text
 .
-|-- src/ 或 app/          主要源码
-|-- public/ 或 assets/    静态资源
-|-- docs/                 截图、说明或部署文档
-|-- README.md             GitHub 首屏入口
+|-- docs/                 截图、说明和补充资料
+|-- README.md             GitHub 首页
 |-- README.en.md          英文说明
 `-- README.cn.md          中文说明
 ```
 
 ## 后续计划
 
-- [ ] 补充更多真实使用示例和截图。
-- [ ] 为核心工作流增加测试或 smoke check。
-- [ ] 在适合的项目中发布干净的 release 成品。
-- [ ] 持续优化文档，让新贡献者更容易上手。
+- [ ] 补充更多真实使用截图和示例。
+- [ ] 为主要流程增加更多验证说明。
+- [ ] 继续优化说明文档的可读性。
+- [ ] 增加更适合新手的入门步骤。
 
-欢迎提交 Issue 和 PR。如果这个项目帮到了你，Star 和 Fork 能让更多人更容易发现它。
+欢迎提交 Issue 和 PR。如果这个项目对你有帮助，Star 或 Fork 会让更多人更容易找到它。

@@ -2,20 +2,31 @@
 
 [English](./README.en.md) | [中文](./README.cn.md)
 
-> PWA and Android-ready tabletop assistant for scoring, rounds, random tools, templates, and local sessions.
+> Local-first board game companion for scoring, rounds, random tools, templates, and session tracking.
 
-![vue](https://img.shields.io/badge/vue-111827?style=flat-square) ![typescript](https://img.shields.io/badge/typescript-111827?style=flat-square) ![pwa](https://img.shields.io/badge/pwa-111827?style=flat-square) ![board-games](https://img.shields.io/badge/board-games-111827?style=flat-square) ![local-first](https://img.shields.io/badge/local-first-111827?style=flat-square)
+![vue](https://img.shields.io/badge/vue-111827?style=flat-square)
+![typescript](https://img.shields.io/badge/typescript-111827?style=flat-square)
+![pwa](https://img.shields.io/badge/pwa-111827?style=flat-square)
+![board-games](https://img.shields.io/badge/board-games-111827?style=flat-square)
+![local-first](https://img.shields.io/badge/local-first-111827?style=flat-square)
 
-## Showcase
+## Preview
 
-![Board Game Helper showcase](./docs/images/github-showcase.png)
+![Board Game Helper preview](./docs/images/2.jpg)
 
-## Why Star / Fork
+## Why It Feels Useful
 
-- Clear, runnable project scope instead of a placeholder repository.
-- Screenshot-first README so visitors understand the product in seconds.
-- Small enough to study, fork, and customize for your own workflow.
-- Bilingual documentation for both global and Chinese-speaking developers.
+- Designed for actual game nights instead of a generic app shell.
+- Clear screenshot-led presentation makes the workflow easy to understand fast.
+- Keeps local-first behavior for sessions, presets, and notes.
+- Small enough to remix into a personal tabletop helper.
+
+## What It Covers
+
+- Scoring and round management
+- Random tools for setup and play
+- Templates and local session support
+- PWA-friendly usage with room for Android packaging
 
 ## Quick Start
 
@@ -24,9 +35,16 @@ npm install
 npm run dev
 ```
 
-## Documentation
+## Project Map
+
+- `docs/` for screenshots and supporting notes
+- `README.md` for the landing page
+- `README.en.md` for English documentation
+- `README.cn.md` for Chinese documentation
+
+## More Docs
 
 - English guide: [README.en.md](./README.en.md)
-- 中文说明：[README.cn.md](./README.cn.md)
+- 中文说明: [README.cn.md](./README.cn.md)
 
-If this project helps you, starring and forking it makes the work easier for others to discover.
+If this project helps you, starring or forking it makes it easier for others to discover it.

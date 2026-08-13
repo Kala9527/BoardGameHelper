@@ -1,24 +1,25 @@
 # Board Game Helper
 
-[中文说明](./README.cn.md)
+[中文](./README.cn.md)
 
-> PWA and Android-ready tabletop assistant for scoring, rounds, random tools, templates, and local sessions.
+> Local-first board game companion for scoring, rounds, random tools, templates, and session tracking.
 
-![vue](https://img.shields.io/badge/vue-111827?style=flat-square) ![typescript](https://img.shields.io/badge/typescript-111827?style=flat-square) ![pwa](https://img.shields.io/badge/pwa-111827?style=flat-square) ![board-games](https://img.shields.io/badge/board-games-111827?style=flat-square) ![local-first](https://img.shields.io/badge/local-first-111827?style=flat-square)
+![vue](https://img.shields.io/badge/vue-111827?style=flat-square)
+![typescript](https://img.shields.io/badge/typescript-111827?style=flat-square)
+![pwa](https://img.shields.io/badge/pwa-111827?style=flat-square)
+![board-games](https://img.shields.io/badge/board-games-111827?style=flat-square)
+![local-first](https://img.shields.io/badge/local-first-111827?style=flat-square)
 
-## Showcase
+## Preview
 
-![Board Game Helper showcase](./docs/images/github-showcase.png)
+![Board Game Helper preview](./docs/images/2.jpg)
 
 ## Highlights
 
-- vue
-- typescript
-- pwa
-- board games
-- local first
-- Practical project structure for learning, demos, and remixing.
-- Local-first setup where secrets, generated files, and build output stay out of Git.
+- Built for tabletop sessions, not a generic starter app.
+- Local-first behavior keeps play data easy to manage.
+- The UI is designed to be read quickly during a game.
+- Bilingual docs make the project easier to share and reuse.
 
 ## Quick Start
 
@@ -27,27 +28,22 @@ npm install
 npm run dev
 ```
 
-## Project Structure
+## What You Will Find
 
-```text
-.
-|-- src/ or app/          Main source code
-|-- public/ or assets/    Static assets when available
-|-- docs/                 Screenshots, notes, or deployment docs
-|-- README.md             GitHub landing README
-|-- README.en.md          English documentation
-`-- README.cn.md          Chinese documentation
-```
+- `docs/` for screenshots and supporting notes
+- `README.md` as the GitHub landing page
+- `README.en.md` for English readers
+- `README.cn.md` for Chinese readers
 
 ## Roadmap
 
-- [ ] Add more real-world examples and screenshots.
-- [ ] Expand tests or smoke checks for the primary workflow.
-- [ ] Publish clean release artifacts where the project type supports it.
-- [ ] Keep documentation friendly for new contributors.
+- [ ] Add more real-world screenshots and examples.
+- [ ] Expand checks around the primary game flow.
+- [ ] Publish cleaner release artifacts where relevant.
+- [ ] Keep documentation easy for new contributors to skim.
 
 ## Contributing
 
-Issues and pull requests are welcome. Useful contributions include screenshots, demos, docs, templates, presets, compatibility fixes, tests, and translations.
+Issues and pull requests are welcome. Screenshots, demos, docs, presets, fixes, and translations are especially useful.
 
-If this project helps you, a star and fork make it easier for more people to discover it.
+If this project helps you, a star or fork makes it easier for more people to discover it.
