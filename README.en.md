@@ -1,89 +1,74 @@
-# Board Game Helper
+﻿# Board Game Helper
 
-Board Game Helper is a board game companion prototype built with Vue 3, Pinia, TypeScript, and Vite, with a Capacitor Android wrapper. It is designed for scoring, turn tracking, random events, game templates, and mobile-friendly board game assistance.
+[中文说明](./README.cn.md)
+
+> PWA and Android-ready tabletop assistant for scoring, rounds, random events, templates, and local play tools.  
+
+This repository is packaged to be easy to **star, fork, run, remix, and contribute to**. It keeps a dedicated English version for global GitHub discovery, with a separate Chinese version linked above.
+
+## Why Star This
+
+- Practical project idea with a clear real-world use case.
+- Small enough to fork, study, and customize quickly.
+- English-first bilingual README for both global and Chinese-speaking developers.
+- Clean setup instructions, project structure, roadmap, and contribution entry points.
+- Built around popular GitHub themes such as AI tools, TypeScript, developer tools, local-first apps, automation, and indie-friendly workflows when relevant.
+
+## What It Does
+
+PWA and Android-ready tabletop assistant for scoring, rounds, random events, templates, and local play tools.
 
 ## Highlights
 
+- Cross-platform web board game helper
+- PWA basics with manifest and service worker
+- Local state storage for play sessions
+- Capacitor Android project for APK builds
+- Reusable game templates for fast extension
 
-- Compatible with all computers, operating systems, and Android phones.
-- Board game templates and state management.
-- PWA basics: manifest, service worker, and app icons.
-- Web development and static deployment.
-- Capacitor Android project for APK builds.
-- Local storage utilities for game session data.
+## Tech Stack
 
-## Structure
+`	ext
+Vue 3, TypeScript, Pinia, Vite, Capacitor
+`
 
-```text
+## Quick Start
+
+`ash
+npm install`nnpm run dev`n`n# Android wrapper`ncd app`nnpm install`nnpm run sync:android
+`
+
+## Project Structure
+
+`	ext
 .
-├─ public/
-├─ src/
-│  ├─ components/
-│  ├─ data/
-│  ├─ stores/
-│  ├─ types/
-│  └─ utils/
-├─ app/
-│  └─ android/
-├─ package.json
-└─ vite.config.ts
-```
+|-- src/ or app/          Main source code
+|-- public/ or assets/    Static assets when available
+|-- docs/                 Notes, specs, or deployment docs when available
+|-- README.md             English-first bilingual project guide
+-- package / project files
+`
 
-## Run Web App Locally
+## Deployment / Packaging
 
-Requires Node.js 20.19+ or 22.12+.
+- Do not commit generated builds, local databases, API keys, private logs, or large media files.
+- For frontend projects, deploy the production dist/ folder to GitHub Pages, Vercel, Netlify, Nginx, or package it with DistDesktopLauncher.
+- For desktop/mobile projects, publish only release artifacts from a clean build environment.
+- Keep configuration examples public and real credentials private.
 
-```bash
-npm install
-npm run dev
-```
+## Roadmap
 
-## Build And Deploy Web App
+- [ ] More party game templates
+- [ ] Offline-first sync export/import
+- [ ] Dice, timer, and score widgets
+- [ ] Better mobile tabletop layout
 
-```bash
-npm run build
-npm run preview
-```
+## Contributing
 
-The production files are written to `dist/` and can be deployed to GitHub Pages, Vercel, Netlify, Nginx, or any static host.
+Issues and pull requests are welcome. Useful contributions include better screenshots, demos, docs, templates, presets, provider guides, compatibility fixes, tests, and translations.
 
-## Android Build
+If this project helps you, a star and fork make it easier for more people to discover it.
 
-Build the web app first:
 
-```bash
-npm install
-npm run build
-```
 
-Then sync the Capacitor wrapper:
 
-```bash
-cd app
-npm install
-npm run sync:android
-npm run open:android
-```
-
-Build and run from Android Studio. If your local SDK/JDK paths match the script, you may also try:
-
-```bash
-cd app
-npm run build:apk
-```
-
-APK outputs are usually located in:
-
-```text
-app/android/app/build/outputs/apk/debug/
-```
-
-## Notes
-
-- `node_modules/`, `dist/`, Android `build/`, `.gradle/`, and APK outputs are ignored.
-- `app/android/local.properties` contains local SDK paths and should not be committed.
-- Android builds require Android Studio, JDK, and Android SDK.
-
-## Thanks
-
-Thank you for checking out this project. If this idea makes board game nights a little smoother, a Star, Fork, issue, or suggestion would be warmly appreciated.
